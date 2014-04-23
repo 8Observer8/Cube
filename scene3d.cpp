@@ -246,6 +246,40 @@ void Scene3D::getVertexArray()
     VertexArray[7][0]=a/2;
     VertexArray[7][1]=-a/2;
     VertexArray[7][2]=-a/2;
+
+//    // Top
+//    VertexArray[0][0] = 1.0;
+//    VertexArray[0][1] = 1.0;
+//    VertexArray[0][2] = -1.0;
+
+//    VertexArray[1][0] = 1.0;
+//    VertexArray[1][1] = -1.0;
+//    VertexArray[1][2] = -1;
+
+//    VertexArray[2][0] = -1.0;
+//    VertexArray[2][1]=-1.0;
+//    VertexArray[2][2]=-1.0;
+
+//    VertexArray[3][0]=-1.0;
+//    VertexArray[3][1]=1.0;
+//    VertexArray[3][2]=-1;
+
+//    // Bottom
+//    VertexArray[4][0]=1.0;
+//    VertexArray[4][1]=1.0;
+//    VertexArray[4][2]=1.0;
+
+//    VertexArray[5][0]=1.0;
+//    VertexArray[5][1]=-1.0;
+//    VertexArray[5][2]=1.0;
+
+//    VertexArray[6][0]=-1.0;
+//    VertexArray[6][1]=-1.0;
+//    VertexArray[6][2]=1.0;
+
+//    VertexArray[7][0]=-1.0;
+//    VertexArray[7][1]=1.0;
+//    VertexArray[7][2]=1.0;
 }
 
 void Scene3D::getColorArray() {
